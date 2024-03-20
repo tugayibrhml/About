@@ -1,0 +1,41 @@
+.advertising {
+    background-color: #1a1a1a;
+    display: flex; 
+            justify-content: center; 
+            align-items: center; 
+    .advertising-container {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 80%;
+
+        .advertising-container-about {
+            color: rgba(135, 135, 135, 0.261);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 70px;
+            font-family: "Poppins", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+        }
+        .advertising-container-who {
+            color: #a4161a;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-family: "Poppins", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+    }
+}

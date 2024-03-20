@@ -1,0 +1,267 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* men yazdım */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #868586; /* arxa reng verdim qeseng gorunsun deye */
+    z-index: 9999;  /* qabaga çıxsın deye */
+   
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1000px; */
+    width: 1000%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #a4161a;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 80px;
+}
+
+.links a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #403D39;
+}
+
+.main {
+    background: url(https://img.freepik.com/premium-photo/landscape-mountains-gray-rocks-discolored-banner-relief-mountains-black-white-blur-abstract-landscape-mountain-surface-3d-render_507676-3053.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: #403D39;
+}
+
+.main-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;  /* ************************* */
+    width: 100%; /* ************************* */
+    padding: 50px; /* ************************* */
+    margin: 0 auto; /* ************************* */
+}
+
+.main-in-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #403D39;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 50%;
+}
+
+.main-in-text h1 {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #252422;
+    text-decoration: none;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-in-text p {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-in-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about {
+    color: rgba(135, 135, 135, 0.261);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.who {
+    color: #a4161a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+/* düzeliş ettim */
+.container2 {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+/* düzeliş ettim */
+.about-img {
+    max-width: 500px; 
+    height: 300px; 
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 20px; /* Sağdan boşluk */
+}
+/* düzeliş ettim */
+.about-img img {
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 10px; /* sekilin yanları üçün */
+    box-shadow: -10px 10px 20px 10px rgba(246, 0, 0, 0.5);  /* 1. saga dogru 2.teref 3. bulanıklı olması 4. ne qeder uzansın dartma kimi */
+}
+
+.sag {
+    color: whitesmoke;
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.dynamic {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+    color: #a4161a;
+}
+
+.p2 {
+    display: flex;
+    width: 95%;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.p {
+    display: flex;
+    width: 95%;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding-top: 10px;
+    gap: 50px;
+}
+
+.container4 {
+    display: flex;
+    width: 95%;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    color: #a4161a;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 30%;
+    border: 2px solid white;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+.hire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border: 2px solid #a4161a;
+    background-color: transparent;
+    padding: 10px 10px;
+}

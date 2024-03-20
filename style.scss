@@ -1,0 +1,9 @@
+@use './page/header';
+@use './page/main';
+@use './page/advertising';
+@use './page/about';
+
+body {
+    padding: 0;
+    margin: 0;
+}

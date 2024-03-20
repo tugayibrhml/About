@@ -1,0 +1,239 @@
+header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #868586;
+  z-index: 9999;
+  text-align: center;
+  border-radius: 10px;
+}
+header .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+header .nav-container .logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  padding-left: 25px;
+  font-size: 20px;
+  color: #a4161a;
+}
+header .nav-container .links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 80px;
+}
+header .nav-container .links a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #403D39;
+}
+
+.main {
+  background: url(https://img.freepik.com/premium-photo/landscape-mountains-gray-rocks-discolored-banner-relief-mountains-black-white-blur-abstract-landscape-mountain-surface-3d-render_507676-3053.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-color: #403D39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+.main .main-container .main-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #403D39;
+  justify-content: center;
+  background: transparent;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 9999px;
+}
+.main .main-container .main-text h1 {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #252422;
+  text-decoration: none;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-container .main-text p {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style: normal;
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-container .main-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.advertising {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advertising .advertising-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+}
+.advertising .advertising-container .advertising-container-about {
+  color: rgba(135, 135, 135, 0.261);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.advertising .advertising-container .advertising-container-who {
+  color: #a4161a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about {
+  background-color: #1a1a1a;
+}
+.about .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #1a1a1a;
+  flex-wrap: wrap;
+}
+.about .container .sol {
+  flex: 0 0 auto;
+  max-width: 300px;
+  margin: 20px;
+  width: 45%;
+  height: 350px;
+  background-color: red;
+}
+.about .container .sol img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: -10px 10px 20px 10px rgba(246, 0, 0, 0.5);
+}
+.about .container .sag {
+  color: whitesmoke;
+  padding: 20px;
+  background-color: blue;
+  width: 55%;
+  height: 350px;
+  flex: 1 1 300px;
+}
+.about .container .sag .dynamic {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #a4161a;
+}
+.about .container .sag .p2, .about .container .sag .p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.about .container .sag .info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 10px;
+}
+.about .container .sag .info > div {
+  flex: 1 1 200px;
+}
+.about .container .sag .click {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.about .container .sag .click .download, .about .container .sag .click .hire {
+  border-radius: 10px;
+  width: 30%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.about .container .sag .click .download a, .about .container .sag .click .hire a {
+  text-decoration: none;
+}
+.about .container .sag .click .download.download:hover, .about .container .sag .click .hire.download:hover {
+  color: #a4161a;
+  background-color: rgb(251, 5, 5);
+}
+.about .container .sag .click .download.hire:hover, .about .container .sag .click .hire.hire:hover {
+  color: #a4161a;
+  background-color: rgb(251, 5, 5);
+}
+@media screen and (max-width: 700px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .about .container .sol, .about .container .sag {
+    max-width: 100%;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
